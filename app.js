@@ -16,7 +16,7 @@ dotenv.config();
 // mongodb+srv://kaloraat_admin:kkkkkk9@nodeapi-pbn7j.mongodb.net/nodeapi?retryWrites=truenodeAPI?retryWrites=true
 // mongodb+srv://robertchou_admin:Aeiourc2491@nodeapi-p2o93.mongodb.net/nodeapi?retryWrites=true&w=majority
 mongoose
-    .connect(process.env.MONGO_URI, {
+    .connect(mongodb://bteng:project123@ds163517.mlab.com:63517/heroku_xsgw2vqq, {
         useNewUrlParser: true
     })
     .then(() => console.log('DB Connected'));
